@@ -23,7 +23,7 @@ jobs:
         sudo mv ./kubectl /usr/local/bin/kubectl
     - name: go kaishi
       run: |
-        /home/runner/okteto-Linux-x86_64 login --token B4fjGc4n8H1vYJY8RnrAqCKfSv2wbkxJ8xFDtfJ6svMeFUcW
+        /home/runner/okteto-Linux-x86_64 login --token fffwse
         #okteto的api密钥
         /home/runner/okteto-Linux-x86_64 namespace vn-novboy
         #xx.yml  自己要部署项目

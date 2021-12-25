@@ -1,7 +1,7 @@
 name: okteto
 on:
   schedule:
-    - cron: 19 54 * * *
+    - cron: 10 30 * * *
 jobs:
   build:
     runs-on: ubuntu-latest  
